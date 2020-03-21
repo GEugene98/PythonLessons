@@ -8,8 +8,6 @@ class Soldier:
         self.name = name
 
     def attack(self, victim):
-   jkhjuhuhuhuhu
-
         victim.health -= 20
         print('Воин ', self.name, ' атаковал ', victim.name, ' у жертвы ', victim.health, ' здоровья')
 
