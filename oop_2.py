@@ -8,10 +8,7 @@ class Soldier:
         self.name = name
 
     def attack(self, victim):
-        if(victim.health - 20 < 0):
-            victim.health = 0
-            print(victim.name, ' проиграл')
-            return
+   
 
         victim.health -= 20
         print('Воин ', self.name, ' атаковал ', victim.name, ' у жертвы ', victim.health, ' здоровья')
